@@ -1,4 +1,4 @@
-package part.project.app;
+package part.project.app.common;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -26,7 +26,7 @@ public class HomeController {
 	public String home(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
-		String id = "¼½½º";
+		String id = "ï¿½ï¿½ï¿½ï¿½";
 		
 		logger.trace("trace, id : {}", id);
 		logger.debug("debug, id : {}", id);
